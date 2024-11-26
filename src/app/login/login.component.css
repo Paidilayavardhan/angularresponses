@@ -1,0 +1,28 @@
+table, th, td{
+    border:2px solid;
+}
+/* Styling for the Update (Edit) button */
+.btn-edit {
+    background-color: red;  /* Red background */
+    color: white;           /* White text */
+    border: none;           /* Remove border */
+    padding: 10px 15px;     /* Padding for button size */
+    cursor: pointer;        /* Pointer on hover */
+  }
+  
+  .btn-edit:hover {
+    background-color: darkred; /* Darker red on hover */
+  }
+  
+  /* Styling for the Delete button */
+  .btn-delete {
+    background-color: green;   /* Green background */
+    color: white;              /* White text */
+    border: none;              /* Remove border */
+    padding: 10px 15px;        /* Padding for button size */
+    cursor: pointer;           /* Pointer on hover */
+  }
+  
+  .btn-delete:hover {
+    background-color: darkgreen; /* Darker green on hover */
+  }
